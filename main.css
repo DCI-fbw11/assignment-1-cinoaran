@@ -39,7 +39,7 @@ footer {
     background:aliceblue;
     padding: 30px;
 }
-table caption{font-size: 24 px;}
+table h6{font-size: 24 px;}
 table td{ text-align: center; padding: 3px;}
 table tr:nth-child(even) td:nth-child(odd){background: #666; color: #fff;}
 table tr:nth-child(odd) td:nth-child(even) {background: #fff; color: #333;}
