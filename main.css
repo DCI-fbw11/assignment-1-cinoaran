@@ -1,0 +1,49 @@
+a{
+    text-decoration: none;
+}
+
+header {
+    display: block-inline;
+    width: 80%;
+    height: 30%;
+    margin: 0 auto;
+    
+}
+header nav a { 
+    display: inline-block;
+    max-width: 30%;
+}
+img.logo-image{
+    display: inline-block;
+    max-width: 30%;    
+}
+
+span.logo-text{
+    display: inline-block;
+    vertical-align: top;
+    height: 30%;
+    font-size: 0.9em;
+}
+
+main {
+    margin: auto;
+    max-width: 80%;
+    min-height: 80vh;
+    
+}
+span.red {
+    color: red;
+}
+footer {
+    text-align: center;
+    background:aliceblue;
+    padding: 30px;
+}
+
+@media only screen and (max-width: 1220px) {
+    img.logo-image{
+        display: block;
+        min-width: 100%; 
+        margin: 0 auto;   
+    }
+}
